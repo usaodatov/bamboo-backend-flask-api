@@ -28,18 +28,19 @@ This backend is deployed on an Azure virtual machine and integrated with a custo
 
 ## File Structure
 
-bamboo-backend-flask-api/
-├── app.py             
-Flask app with /ping and /message routes
+Main: bamboo-backend-flask-api/
 
-├── Caddyfile          
+-app.py             
+Flask app with /ping and /message routes
+ 
+-Caddyfile          
 Caddy HTTPS reverse proxy config
 
-├── README.md          
+-README.md          
 Thiis is the file.
 
-└── docs/
-    ├── curl-ping-success.png
-    ├── curl-message-success.png
-    ├── browser-message-alert.png
-    └── browser-ping-alert.png
+docs:
+    -curl-ping-success.png
+    -curl-message-success.png
+    -browser-message-alert.png
+    -browser-ping-alert.png
