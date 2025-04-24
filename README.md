@@ -39,7 +39,8 @@ Caddy HTTPS reverse proxy config
 -README.md          
 Thiis is the file.
 
-docs:
+docs: (Screenshots)
+
     -curl-ping-success.png
     -curl-message-success.png
     -browser-message-alert.png
