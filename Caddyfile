@@ -1,0 +1,9 @@
+# This block tells Caddy to handle all incoming HTTPS requests
+# directed at the domain "api.umexim.com"
+
+api.umexim.com {
+    reverse_proxy 127.0.0.1:5000
+
+ # Caddy decrypts the HTTPS request (TLS),
+    # and securely sends it to the backend server running Flask.
+}
